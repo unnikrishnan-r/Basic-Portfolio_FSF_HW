@@ -1,8 +1,18 @@
+<!--
+    Commit History:
+    1.0 -  Basic Structure of the portfolio.html
+    2.0 -  Reorganized main section using classes to be used for styling
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
 
-<title> My Portfolio!!</title>
+    <title> My Portfolio!!</title>
+    <link rel="stylesheet" href="../Basic-Portfolio_FSF_HW/assets/css/style.css">
+
+</head>
 
 <body>
     <!-- The page is divided to 3 sections 
@@ -11,46 +21,81 @@
             3. Footer
         -->
 
+
+    <!-- Below is the definition for Navigation Bar-->
     <div class="nav-bar">
 
-        <h1> Your Name</h1>
+        <h1> Unnikrishnan Ramachandran</h1>
         <h4>
-
             <a href="#">About</a>
         </h4>
         <h4>
-
-            <a href="#">Contact</a>
-        </h4>
-        <h4>
-
             <a href="#">Portfolio</a>
         </h4>
+        <h4>
+            <a href="#">Contact</a>
+        </h4>
     </div>
 
-    <div class="Container">
-        <h2>Portfolio</h2>
-        <p>Hangman</p>
-        <p>RPG Game</p>
-        <p> DJ mixer</p>
-        <p>Fourth</p>
-        <p>Fifth</p>
-        <p>Sixth</p>
+    <!-- Below is the main section
+         It has been defined using various classes
+         1. container
+         2. section-heading
+         3. project-all
+            6 individual project classes
+    -->
+    <div class="container">
 
-        <img src="./assets/images/nature-q-c-640-480-2.jpg" alt="image1">
-        <img src="./assets/images/sports-q-c-640-480-6.jpg" alt="image2">
-        <img src="./assets/images/technics-h-c-640-960-4.jpg" alt="image3">
-        <img src="./assets/images/technics-q-c-640-480-2.jpg" alt="image4">
-        <img src="./assets/images/technics-q-c-640-480-6.jpg" alt="image5">
-        <img src="./assets/images/technics-q-c-640-480-8.jpg" alt="image6">
+        <div class="section-heading">
 
+            <h2>Portfolio</h2>
+        </div>
+
+        <div class="project-all">
+
+            <div class="project">
+                <img src="./assets/images/nature-q-c-640-480-2.jpg" alt="image1">
+                <p class="projectname">Photo Editor</p>
+            </div>
+
+
+            <div class="project">
+                <img src="./assets/images/technics-h-c-640-960-4.jpg" alt="image3">
+                <p class="projectname">Circuit Designer</p>
+            </div>
+
+
+            <div class="project">
+                <img src="./assets/images/technics-q-c-640-480-6.jpg" alt="image5">
+                <p class="projectname">DJ Mixer</p>
+            </div>
+
+
+            <div class="project">
+                <img src="./assets/images/technics-q-c-640-480-2.jpg" alt="image4">
+                <p class="projectname">RPG Game</p>
+            </div>
+
+
+            <div class="project">
+                <img src="./assets/images/sports-q-c-640-480-6.jpg" alt="image2">
+                <p class="projectname">Fanatasy League</p>
+            </div>
+
+
+            <div class="project">
+                <img src="./assets/images/technics-q-c-640-480-8.jpg" alt="image6">
+                <p class="projectname">Boson Generator</p>
+            </div>
+
+        </div>
     </div>
 
+    <!--Below is the footer-->
     <div class="footer">
-
         <p>Copyright</p>
-
     </div>
+
 </body>
 
 </html>

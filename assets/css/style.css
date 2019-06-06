@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/pexels-photo-1020320.jpeg);
+}
+
+/* Font family for headings are overridden from the default*/
+
+h1, h2, h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #777777;
+}
+
+/* Style of Navigation Bar */
+
+.nav-bar {
+    background-color: #ffffff;
+    height: 57px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #cccccc;
+}
+
+/*Name - */
+
+h1 {
+    float: left;
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 225px;
+    margin-right: 320px;
+}
+
+/*Links*/
+
+h4 {
+    clear: right;
+    float: left;
+    padding: 10px;
+}
+
+/*Styling of main section begins here*/
+
+.container {
+    clear: both;
+    overflow: auto;
+    width: 960px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+.section-heading {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #4aaaa5;
+    border-bottom: solid 1px #dddddd;
+    text-align: left;
+}
+
+/*Styling of the projects (images and labels) begin*/
+
+img {
+    height: 181px;
+    width: 300px;
+}
+
+.project-all {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.project {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+}
+
+.projectname {
+    clear: both;
+    overflow: auto;
+    width: 300px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 73%;
+}
+
+/*Styling of footer*/
+
+.footer {
+    background-color: #666666;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
