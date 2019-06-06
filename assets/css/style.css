@@ -107,4 +107,28 @@ img {
     text-align: center;
     color: white;
     margin-top: 10px;
+    border-top: 8px solid #4aaaa5;  
+}
+
+.profile-content{
+    margin-top:25px;
+    height:200px;   
+    margin-bottom: 250px;
+}
+
+.profile-pic
+{width:200px;
+height:200px;
+margin-left:15px;
+margin-right:10px;
+float:left;
+}
+
+.profile-desc{
+    clear:right;
+    text-align: left;
+    margin-left:30px;
+    margin-right: 30px;
+    font-size: 15px;
+    line-height: 30px;
 }
