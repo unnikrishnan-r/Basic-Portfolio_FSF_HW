@@ -6,12 +6,13 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url(../images/pexels-photo-1020320.jpeg);
+    color: #777777;
 }
 
 /* Font family for headings are overridden from the default*/
 
 h1, h2, h4 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
 }
 
@@ -22,7 +23,7 @@ h1 {
     background-color: #4aaaa5;
     color: white;
     margin-left: 225px;
-    margin-right: 320px;
+    margin-right: 205px;
 }
 
 /*Links*/
@@ -37,8 +38,8 @@ h4 {
 .nav-bar {
     background-color: #ffffff;
     height: 57px;
-    margin-bottom: 10px;
     border-bottom: solid 1px #cccccc;
+    margin-bottom: 10px;
 }
 
 /*Content Section of all 3 pages have container and section-heading as common*/
@@ -54,12 +55,12 @@ h4 {
 }
 
 .section-heading {
-    margin-left: 15px;
+    color: #4aaaa5;
+    text-align: left;
+    border-bottom: solid 1px #dddddd;
     margin-right: 15px;
     margin-bottom: 15px;
-    border-bottom: solid 1px #dddddd;
-    text-align: left;
-    color: #4aaaa5;
+    margin-left: 15px;
 }
 
 .profile-content, .form-content, .project-all {
