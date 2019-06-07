@@ -3,6 +3,7 @@
     1.0 -  Basic Structure of the index.html
     2.0 - Fixing comments from HTML validation
           Added alt to the image
+    3.0 -  Added wrapper and push class to achieve sticky footer
 
 -->
 <!DOCTYPE html>
@@ -25,67 +26,81 @@
 
 
     <!-- Below is the definition for Navigation Bar-->
-    <div class="nav-bar">
+    <div class="wrapper">
 
-        <h1> Unnikrishnan Ramachandran</h1>
-        <h4>
-            <a href="#">About</a>
-        </h4>
-        <h4>
-            <a href="./portfolio.html">Portfolio</a>
-        </h4>
-        <h4>
-            <a href="./contact.html">Contact</a>
-        </h4>
-    </div>
 
-    <!-- Below is the main section
+        <div class="nav-bar">
+
+            <h1> Unnikrishnan Ramachandran</h1>
+            <h4>
+                <a href="#">About</a>
+            </h4>
+            <h4>
+                <a href="./portfolio.html">Portfolio</a>
+            </h4>
+            <h4>
+                <a href="./contact.html">Contact</a>
+            </h4>
+        </div>
+
+        <!-- Below is the main section
          It has been defined using various classes
          1. container
          2. section-heading
          3. project-all
             6 individual project classes
     -->
-    <div class="container">
+        <div class="container">
 
-        <div class="section-heading">
+            <div class="section-heading">
 
-            <h2>About Me</h2>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="profile-content">
+
+                <img class="profile-pic" src="./assets/images/Unni_Passport_Picture.jpg" alt="profilepic">
+                <p class="profile-desc">
+                    Computers always fascinated me as a kid, and after having spent more than a decade in the world of
+                    custom softwares I still feel like a boy standing at the seashore picking pebbles. That speaks
+                    volumes
+                    about the endless possibility
+                    technology and specifically software opens up for the betterment of daily life for each one of us.
+                    That
+                    is what motivated me to set out in exploration to the world of web development!!!
+                </p>
+
+                <br><br>
+
+                <p class="profile-desc">
+                    My career so far has revolved around the famous Mainframes! Right out of college, my first job was
+                    as a
+                    COBOL/DB2 developer and there has been no looking back since.
+                    In 11 years, I have built numerous Mainframe based applications using COBOL and CICS, with DB2 or
+                    IMS on
+                    the backend.
+                    When you buy groceries, it is very likely that you are invoking a piece of code that has my name on
+                    it,
+                    because my clients were primarily the household names of retail industry.
+                    I have also worked with integration tools like TIBCO, and have my fair share of exposure to
+                    messaging
+                    frameworks, webservices, REST APIs etc.
+                </p>
+
+                <br>
+
+                <p class="profile-desc">
+                    Outside of work, I am a sports enthusiast (just to watch ;)) and a foodie. I love going on road
+                    trips,
+                    and even after 2 toddlers I have not given that up.
+                </p>
+
+            </div>
         </div>
+        <div class="push"> </div>
 
-        <div class="profile-content">
-
-            <img class="profile-pic" src="./assets/images/Unni_Passport_Picture.jpg" alt="profilepic">
-            <p class="profile-desc">
-                Computers always fascinated me as a kid, and after having spent more than a decade in the world of
-                custom softwares I still feel like a boy standing at the seashore picking pebbles. That speaks volumes
-                about the endless possibility
-                technology and specifically software opens up for the betterment of daily life for each one of us. That
-                is what motivated me to set out in exploration to the world of web development!!!
-            </p>
-
-            <br><br>
-
-            <p class="profile-desc">
-                My career so far has revolved around the famous Mainframes! Right out of college, my first job was as a
-                COBOL/DB2 developer and there has been no looking back since.
-                In 11 years, I have built numerous Mainframe based applications using COBOL and CICS, with DB2 or IMS on
-                the backend.
-                When you buy groceries, it is very likely that you are invoking a piece of code that has my name on it,
-                because my clients were primarily the household names of retail industry.
-                I have also worked with integration tools like TIBCO, and have my fair share of exposure to messaging
-                frameworks, webservices, REST APIs etc.
-            </p>
-
-            <br>
-
-            <p class="profile-desc">
-                Outside of work, I am a sports enthusiast (just to watch ;)) and a foodie. I love going on road trips,
-                and even after 2 toddlers I have not given that up.
-            </p>
-
-        </div>
     </div>
+
 
     <!--Below is the footer-->
     <div class="footer">

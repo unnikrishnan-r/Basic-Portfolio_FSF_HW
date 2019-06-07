@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url(../images/pexels-photo-1020320.jpeg);
@@ -31,6 +35,11 @@ h1 {
 h4 {
     clear: right;
     float: left;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
 }
 
 /* Style of Navigation Bar */
@@ -71,11 +80,14 @@ h4 {
 
 /*Styling of footer*/
 
+.footer, .push {
+    height: 50px;
+}
+
 .footer {
     background-color: #666666;
     padding: 10px;
     text-align: center;
     color: white;
-    margin-top: 10px;
     border-top: 8px solid #4aaaa5;
 }

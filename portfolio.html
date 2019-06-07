@@ -2,6 +2,7 @@
     Commit History:
     1.0 -  Basic Structure of the portfolio.html
     2.0 -  Reorganized main section using classes to be used for styling
+    3.0 -  Added wrapper and push class to achieve sticky footer
 
 -->
 <!DOCTYPE html>
@@ -22,75 +23,79 @@
             3. Footer
         -->
 
+    <div class="wrapper">
 
-    <!-- Below is the definition for Navigation Bar-->
-    <div class="nav-bar">
+        <!-- Below is the definition for Navigation Bar-->
+        <div class="nav-bar">
 
-        <h1> Unnikrishnan Ramachandran</h1>
-        <h4>
-            <a href="./index.html">About</a>
-        </h4>
-        <h4>
-            <a href="#">Portfolio</a>
-        </h4>
-        <h4>
-            <a href="./contact.html">Contact</a>
-        </h4>
-    </div>
+            <h1> Unnikrishnan Ramachandran</h1>
+            <h4>
+                <a href="./index.html">About</a>
+            </h4>
+            <h4>
+                <a href="#">Portfolio</a>
+            </h4>
+            <h4>
+                <a href="./contact.html">Contact</a>
+            </h4>
+        </div>
 
-    <!-- Below is the main section
+        <!-- Below is the main section
          It has been defined using various classes
          1. container
          2. section-heading
          3. project-all
             6 individual project classes
     -->
-    <div class="container">
+        <div class="container">
 
-        <div class="section-heading">
+            <div class="section-heading">
 
-            <h2>Portfolio</h2>
+                <h2>Portfolio</h2>
+            </div>
+
+            <div class="project-all">
+
+                <div class="project">
+                    <img src="./assets/images/nature-q-c-640-480-2.jpg" alt="image1">
+                    <p class="projectname">Photo Editor</p>
+                </div>
+
+
+                <div class="project">
+                    <img src="./assets/images/technics-h-c-640-960-4.jpg" alt="image3">
+                    <p class="projectname">Circuit Designer</p>
+                </div>
+
+
+                <div class="project">
+                    <img src="./assets/images/technics-q-c-640-480-6.jpg" alt="image5">
+                    <p class="projectname">DJ Mixer</p>
+                </div>
+
+
+                <div class="project">
+                    <img src="./assets/images/technics-q-c-640-480-2.jpg" alt="image4">
+                    <p class="projectname">RPG Game</p>
+                </div>
+
+
+                <div class="project">
+                    <img src="./assets/images/sports-q-c-640-480-6.jpg" alt="image2">
+                    <p class="projectname">Fanatasy League</p>
+                </div>
+
+
+                <div class="project">
+                    <img src="./assets/images/technics-q-c-640-480-8.jpg" alt="image6">
+                    <p class="projectname">Boson Generator</p>
+                </div>
+
+            </div>
         </div>
-
-        <div class="project-all">
-
-            <div class="project">
-                <img src="./assets/images/nature-q-c-640-480-2.jpg" alt="image1">
-                <p class="projectname">Photo Editor</p>
-            </div>
-
-
-            <div class="project">
-                <img src="./assets/images/technics-h-c-640-960-4.jpg" alt="image3">
-                <p class="projectname">Circuit Designer</p>
-            </div>
-
-
-            <div class="project">
-                <img src="./assets/images/technics-q-c-640-480-6.jpg" alt="image5">
-                <p class="projectname">DJ Mixer</p>
-            </div>
-
-
-            <div class="project">
-                <img src="./assets/images/technics-q-c-640-480-2.jpg" alt="image4">
-                <p class="projectname">RPG Game</p>
-            </div>
-
-
-            <div class="project">
-                <img src="./assets/images/sports-q-c-640-480-6.jpg" alt="image2">
-                <p class="projectname">Fanatasy League</p>
-            </div>
-
-
-            <div class="project">
-                <img src="./assets/images/technics-q-c-640-480-8.jpg" alt="image6">
-                <p class="projectname">Boson Generator</p>
-            </div>
-
-        </div>
+        <div class="push"></div>
     </div>
+
 
     <!--Below is the footer-->
     <div class="footer">
