@@ -27,7 +27,8 @@ h1 {
     background-color: #4aaaa5;
     color: white;
     margin-left: calc((100% - 960px)/2);
-    margin-right: 205px;
+    margin-right: 180px;
+    font-size: 36px;
 }
 
 /*Links*/
@@ -35,6 +36,8 @@ h1 {
 h4 {
     clear: right;
     float: left;
+    padding:20px;
+    font-size: 18px;
 }
 
 .wrapper {
@@ -70,6 +73,7 @@ h4 {
     margin-right: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
+    font-size: 30px;
 }
 
 .profile-content, .form-content, .project-all {
