@@ -1,6 +1,9 @@
 <!--
     Commit History:
     1.0 -  Basic Structure of the contact.html
+    2.0 -  HTML Validator Comment fixes
+           a. Removed type from text area tag
+           b. Removed for from label tags
 
 -->
 <!DOCTYPE html>
@@ -53,17 +56,17 @@
 
         <div class="form-content">
 
-            <label for="name_input">Name:</label><br>
+            <label>Name:</label><br>
 
             <input type="text" name="name" placeholder="John Smith"> <br><br>
 
-            <label for="email_input">Email:</label><br>
+            <label>Email:</label><br>
 
             <input type="email" name="email" placeholder="example@gmail.comm"> <br><br>
 
-            <label for="message_input">Message:</label><br>
+            <label>Message:</label><br>
 
-            <textarea class="message" type="text"></textarea><br><br>
+            <textarea class="message"></textarea><br><br>
 
             <button type="button">Submit</button>
 
