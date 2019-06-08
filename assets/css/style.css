@@ -7,9 +7,10 @@
     position: relative;
 }
 
+/*Image set to 4:3 ratio*/
 img {
-    height: 225px;
     width: 300px;
+    height: 225px;
 }
 
 .projectname {
@@ -41,17 +42,25 @@ img {
     line-height: 30px;
 }
 
-.icon
-{
+/*Icons for Linkedin, Email, Github*/
+.icon {
     color: #0077b5;
     font-size: 30px;
     margin-left: 30px;
     margin-bottom: 10px;
-    padding:20px;
+    padding: 20px;
+    position: relative;
 }
 
-.icon-link{
+/*Removing underline from icons when hyperlinked*/
+.icon-link {
     text-decoration: none;
+}
+
+/*Hover effect on icons*/
+.icon:hover {
+    color: green;
+    font-size: 50px;
 }
 
 /*Styles Specific to contact.html*/
@@ -61,6 +70,17 @@ input, textarea {
     height: 30px;
     font-size: 20px;
 }
+
+/*Form validations for input fields*/
+input:required:invalid{
+    border: solid 1px red;
+    background-color: lightgray;
+}
+
+input:required:valid{
+    background-color:lightgreen;
+}
+
 
 .message {
     height: 200px;

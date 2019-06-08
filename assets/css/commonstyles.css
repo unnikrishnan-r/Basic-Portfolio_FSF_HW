@@ -20,7 +20,7 @@ h1, h2, h4 {
     padding: 10px;
 }
 
-/*Name - */
+/*Name on the Nav bar*/
 
 h1 {
     float: left;
@@ -36,17 +36,23 @@ h1 {
 h4 {
     clear: right;
     float: left;
-    padding:20px;
+    padding: 20px;
     font-size: 18px;
 }
 
+/*Hover effect on links*/
+a:hover {
+    color: green;
+    font-size: 25px;
+}
+
+/* For sticky footer*/
 .wrapper {
     min-height: 100%;
     margin-bottom: -50px;
 }
 
 /* Style of Navigation Bar */
-
 .nav-bar {
     background-color: #ffffff;
     height: 57px;
@@ -76,8 +82,8 @@ h4 {
     font-size: 30px;
 }
 
-.profile-content, .form-content, .project-all  {
-    height: 500px;
+.profile-content, .form-content, .project-all {
+    height: 520px;
     margin-left: 30px;
     margin-right: 30px;
 }
